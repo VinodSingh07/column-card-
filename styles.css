@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Lexend Deca", sans-serif;
+
+  color: hsla(0, 0%, 100%, 0.75);
+}
+p {
+  font-size: 15px;
+  margin: 1.5rem 0;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+h2 {
+  font-family: "Big Shoulders Display", cursive;
+  color: hsl(0, 0%, 95%);
+  font-weight: 700;
+  font-size: 2rem;
+  letter-spacing: 1px;
+}
+.container {
+  display: flex;
+
+  justify-content: center;
+  margin: 16vh 0;
+  height: 65vh;
+}
+.items {
+  flex-basis: 310px;
+  padding: 3rem;
+}
+.one {
+  background-color: hsl(31, 77%, 52%);
+}
+.two {
+  background-color: hsl(184, 100%, 22%);
+}
+.three {
+  background-color: hsl(179, 100%, 13%);
+}
+.icon {
+  margin: 2rem 0;
+}
+button {
+  font-family: "Lexend Deca", sans-serif;
+  margin: 3rem 0 0;
+  background-color: hsl(0, 0%, 95%);
+  padding: 1rem 2rem;
+  border-radius: 2em;
+  font-weight: bold;
+  font-size: 15px;
+  border: 1px solid hsl(0, 0%, 95%);
+}
+button:hover {
+  background-color: transparent;
+  color: hsl(0, 0%, 95%);
+  border: 2px solid hsl(0, 0%, 95%);
+  cursor: pointer;
+}
+
+.orange {
+  color: hsl(31, 77%, 52%);
+  flex-shrink: 2;
+}
+.blue {
+  color: hsl(184, 100%, 22%);
+}
+.green {
+  color: hsl(179, 100%, 13%);
+}
+@media (max-width: 375px) {
+  .container {
+    flex-direction: column;
+  }
+}
